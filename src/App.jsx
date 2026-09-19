@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import {
   BarChart,
   Bar,
@@ -10,15 +10,9 @@ import {
   PieChart,
   Pie,
   Cell,
-  LineChart,
   Line,
   Area,
-  AreaChart,
-  Radar,
-  RadarChart,
-  PolarGrid,
-  PolarAngleAxis,
-  PolarRadiusAxis
+  AreaChart
 } from 'recharts';
 import {
   mockMetrics,
